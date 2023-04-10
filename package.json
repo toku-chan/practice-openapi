@@ -1,0 +1,16 @@
+{
+  "name": "practice-openapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "openapi-typescript": "npx openapi-typescript schema.yaml --output ./openapi-typescript/schema.gen.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openapi-typescript": "6.2.1"
+  }
+}

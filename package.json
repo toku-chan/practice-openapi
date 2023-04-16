@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "openapi-typescript": "npx openapi-typescript schema.yaml --output ./openapi-typescript/schema.gen.ts",
+    "oas:ts": "npx openapi-typescript ./**/openapi/*.yaml --output ./openapi-typescript/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
